@@ -1,0 +1,9 @@
+---
+- name: installing java on manage node
+  hosts: webserver
+  tasks:
+  - name: installing java
+    apt:
+     name: default-jdk
+     state: present
+     update_cache: yes
