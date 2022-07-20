@@ -1,5 +1,5 @@
 ---
-- hosts: webservers
+- hosts: webserver
   become: yes
   tasks:
   - name: install webserver(apache2) on ubuntu20 node1
