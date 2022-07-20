@@ -1,0 +1,17 @@
+---
+- name: configuring apache2
+  hosts:
+  tasks:
+   - name: installing apache2
+     apt:
+      name: apache2
+      state: present
+      update_cache: yes
+   - name: edit index.html file
+     copy:
+      content: "welcome Swhizz Technology"
+      dest: /var/www/html/index.html
+   - name: restart the service
+     service:
+      name: apache2
+      state: restarted   
