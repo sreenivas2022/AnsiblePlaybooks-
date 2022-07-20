@@ -1,6 +1,6 @@
 --- 
 - name: installing s/w packages
-  hosts:
+  hosts: webserver
   tasks:
   - name: install packages
     apt:
@@ -10,4 +10,3 @@
     with_items:
      - git
      - tree
-     
