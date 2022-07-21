@@ -1,6 +1,6 @@
 ---
-- name: installing java on manage node
-  hosts: webserver
+- hosts: webserver
+  become: yes
   tasks:
   - name: installing java
     apt:
