@@ -1,6 +1,6 @@
 ---
 - name: copy the tomuser file to node
-  templete:
-    src: templetes/mytomuser.j2
+  template:
+    src: templates/mytomuser.j2
     dest: /usr/share/tomcat/conf/tomcat-users.xml
   notify: restarttomcat
