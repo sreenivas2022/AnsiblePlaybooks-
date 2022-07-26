@@ -1,0 +1,5 @@
+---
+- name: copying from src to dest
+  copy:
+   src: "{{ src1 }}"
+   dest: "{{ dest1 }}"

@@ -3,4 +3,5 @@
 - include_tasks: jdk.yml
 - include_tasks: installtomcat.yml
 - include_tsks: tomcatconfig.yml
+- include_tasks: adminpack.yml
 

@@ -1,6 +1,6 @@
 ---
 - name: copy the config file to node
-  templete:
-    src: templetes/mytomcatconfig.j2
+  template:
+    src: templates/mytomcatconfig.j2
     dest: /usr/share/tomcat/conf/tomcat.conf
   notify: starttomcat
