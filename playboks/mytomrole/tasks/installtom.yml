@@ -1,5 +1,5 @@
 ---
 - name: installing tomcat
   apt:
-   name: tomcat 9
+   name: tomcat
    state: present
