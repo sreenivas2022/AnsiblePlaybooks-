@@ -1,5 +1,5 @@
 ---
 - name: installing tomcat
   apt:
-   name: tomcat8
+   name: tomcat-7
    state: present
