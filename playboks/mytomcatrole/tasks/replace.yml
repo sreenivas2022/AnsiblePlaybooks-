@@ -1,6 +1,0 @@
----
-- name: changing port number
-  replace:
-   regexp: "{{ port1 }}"
-   replace: "{{ port2 }}"
-   path: "{{ dest2 }}"

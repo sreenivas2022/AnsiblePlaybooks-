@@ -1,7 +1,0 @@
----
-# tasks file for mytomcatrole
-- include_tasks: jdk.yml
-- include_tasks: tomcat.yml
-- include_tasks: tomcatconfig.yml
-- include_tasks: replace.yml
-- include_tasks: service.yml

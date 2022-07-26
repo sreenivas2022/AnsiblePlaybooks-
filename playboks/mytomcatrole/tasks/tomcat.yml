@@ -1,5 +1,0 @@
----
-- name: installing tomcat
-  apt:
-   name: "{{ pkg1 }}"
-   state: presented
